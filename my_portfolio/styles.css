@@ -1,0 +1,57 @@
+body {
+    margin: 0; /* Removes default margin */
+    padding: 0;
+    background-image: url('./imgs/thomas-tastet-hSODeSbvzE0-unsplash.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height to 100% of the viewport */
+    font-family: Arial, sans-serif; /* Optional: Sets a default font */
+    color: white; /* Optional: Sets text color to be readable */
+}
+
+.curly_brace {
+	color: rgba(8, 154, 71, 0.652);
+}
+
+.hello_world {
+	color: rgb(212, 98, 45) !important;
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+}
+
+.name {
+	/* color: rgb(181, 73, 10) !important; */
+	color: rgba(8, 154, 71, 0.729);
+	font-family: 'Playfair Display', serif;
+	font-size: 70px !important;
+	font-weight: 900 !important;
+}
+
+.summary {
+	color: rgb(235, 130, 81) !important;
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+}
+	
+.my_photo {
+	border-radius: 50%;
+}
+
+.experience {
+	color: rgba(135, 84, 230, 0.729);
+	font-family: 'Playfair Display', serif;
+	font-weight: 900 !important;
+}
+
+.ex_summary {
+	color: #eb8251 !important;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+}
+
+
+
+
+Bachelor of Science (B.Sc.): Political Science
+Ekiti State University 

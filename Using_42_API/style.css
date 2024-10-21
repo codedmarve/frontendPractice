@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0057b8;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+#student-data {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+button {
+    background-color: #0057b8;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+#student-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.student-item {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
