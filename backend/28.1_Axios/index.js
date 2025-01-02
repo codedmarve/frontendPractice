@@ -25,12 +25,7 @@ app.get("/", async (req, res) => {
 
 app.post("/", async (req, res) => {
 
-	// console.log(req.body);
-
 	let apiReq = `https://bored-api.appbrewery.com/filter?type=${req.body.type}&participants=${req.body.participants}`;
-
-	// console.log(apiReq);
-
 	try {
 		const response = await axios.get(apiReq);
 		let result = response.data;
