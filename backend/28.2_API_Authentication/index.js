@@ -92,7 +92,7 @@ app.get("/bearerToken", async (req, res) => {
 	try {
 		const response = await axios.get(`${API_URL}secrets/1`, {
 			headers: { 
-				Authorization: `Bearer <${yourBearerToken}>`
+				Authorization: `Bearer ${yourBearerToken}`
 			},
 		});
 
